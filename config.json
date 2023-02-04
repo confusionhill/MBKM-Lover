@@ -1,0 +1,8 @@
+{
+    "email": "[replace it with your email]",
+    "password": "[replace it with your password]",
+    "login-url": "https://api.kampusmerdeka.kemdikbud.go.id/user/auth/login/mbkm",
+    "sptjm-url": "https://api.kampusmerdeka.kemdikbud.go.id/v1alpha1/documents?type=SPTJM,SURAT_REKOMENDASI&programs=Studi%20Independen",
+    "berkas-url": "https://api.kampusmerdeka.kemdikbud.go.id/v1alpha1/documents",
+    "kegiatan-url": "https://api.kampusmerdeka.kemdikbud.go.id/mbkm/mahasiswa/activities/my?offset=0&limit=50"
+}
