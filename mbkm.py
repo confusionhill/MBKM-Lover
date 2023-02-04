@@ -50,10 +50,10 @@ def get_kegiatan(config: Config):
     if response.status_code == 200:
         locjson = response.json()
         for kegiatan in locjson['data']:
-            print(kegiatan['nama_kegiatan'],"status :",kegiatan['status'])
+            get_kegiatan_status(kegiatan)
 
-def get_kegiatan_status():
-    pass
+def get_kegiatan_status(kegiatan):
+    print(kegiatan['nama_kegiatan'],"status :",kegiatan['status'])
 
 def main():
     print("Loading configuration file....")
